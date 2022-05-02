@@ -20,16 +20,16 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a target="_blank" href="images/TimothyMollResume.pdf" class="logo">Download Resume</a>
+						<a target="_blank" href="https://github.com/EvasivePanda/Asteroseismology" class="logo">View Project on Github</a>
 					</header>
 
 				<!-- Nav -->
 				<nav id="nav">
 					<ul class="links">
-					  <li><a href="index.html">Past Projects</a></li>
-					  <li> <a href="aboutme.html">About Me</a></li>
+					  <li><a href="index.html">About Me</a></li>
 					  <li class="active"><a href="featured.html">Featured Project</a></li>
 					  <li><a href="featuredTwo.html">Featured Paper</a></li>
+					  <li><a href="featuredThree.html">Featured Java Project</a></li>
 
 					</ul>
 					<ul class="icons">
@@ -54,17 +54,19 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">April 25, 2017</span>
+									<span class="date">March 2022</span>
 									<h1>Asteroseismology<br />
 									Classification</h1>
-									<p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-									facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-									amet nullam sed etiam veroeros.</p>
+									<p>A neural network model created for the task of classifying two different <br />
+									 kinds of stars based on astereroseismic data
+									</p>
 								</header>
-								<div class="image main"><img src="images/manifold.gif" alt="" /></div>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p><span class="image left"><img src="images/ast.png" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+								<p><span class="image left"><img src="images/ast.png" alt="" /></span>In this project the task was to predict whether a star was a Red Giant or a Helium Burning. These two stars look the same so the differentiation comes from the seismic activity that can be recorded from the stars. I used the seismic activity tables to identify the two different star types. The main aspect of this project that connects with the capstone course was the ability to do many types of different testing and validation in order to be confident in the code to be robust. This testing is required in both projects so we do not ignore any edge cases and leave the code being useless due to the prject not recognizing these cases.</p>
+							<p>The image on the left is the graph of how the training and validation data loss values changed over time. This loss gets lower the longer the model is training for and the lines of the training and the validation should be together as you want to avoid the issues of overfitting to your training data. Also the image shows the test accuracy at the end of training to show the 97% accuracy the model was able to achieve on datapoints it had not seen before. The image on the right displays the confusion matrix of the model when trying to predict on unseen data. </p>
+							<p> <span class="image left"><img src="images/testvalloss.png" alt="" /></span>  <span class="image right"><img src="images/confusionMat.png" alt="" /></span>  </br> </p>
+	
+							<div class="image main"><img src="images/manifold.gif" alt="" /></div>
+	
 							</section>
 
 					</div>
